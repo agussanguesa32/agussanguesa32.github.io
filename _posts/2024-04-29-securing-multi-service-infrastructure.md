@@ -9,15 +9,15 @@ image: /assets/img/posts/2024-04-29-securing-multi-service-infrastructure/Logo.j
 
 ## 📑 Table of Contents
 
-1. [Project Overview](#-project-overview)
-2. [System Architecture](#-system-architecture)
-3. [Security Implementation](#-security-implementation)
-4. [Best Practices](#-best-practices)
-5. [Conclusion](#-conclusion)
+1. [Project Overview](#project-overview)
+2. [System Architecture](#system-architecture)
+3. [Security Implementation](#security-implementation)
+4. [Best Practices](#best-practices)
+5. [Conclusion](#conclusion)
 
 ---
 
-# 🎯 Project Overview
+# 🎯 Project Overview {#project-overview}
 
 6Humanos PUG is a private matchmaking platform for Rocket League players, designed to provide a competitive environment outside the official game rankings. The platform offers:
 
@@ -36,7 +36,7 @@ The platform operates through Discord integration, where players can:
 
 This infrastructure was designed with scalability in mind, aiming to expand beyond South America and accommodate players from different regions while maintaining security and performance.
 
-## 🏗️ System Architecture
+## 🏗️ System Architecture {#system-architecture}
 
 ### 🔧 Core Components
 
@@ -64,7 +64,7 @@ This infrastructure was designed with scalability in mind, aiming to expand beyo
 
 The first three components are containerized and hosted on a VPS using Docker Compose, creating an isolated and secure environment. The web application is deployed separately on Vercel's edge network for optimal performance and global availability.
 
-## 🛡️ Security Implementation
+## 🛡️ Security Implementation {#security-implementation}
 
 ### 🌐 Network Security
 
@@ -462,7 +462,7 @@ The web application includes a real-time service status dashboard that provides 
 - Automatic status detection
 - Public availability for transparency
 
-## 🏆 Best Practices
+## 🏆 Best Practices {#best-practices}
 
 1. **Error Handling**
    - Secure error messages
@@ -474,7 +474,7 @@ The web application includes a real-time service status dashboard that provides 
    - Production vs development configurations
    - Sensitive data protection
 
-## 🎯 Conclusion
+## 🎯 Conclusion {#conclusion}
 
 The infrastructure implements a comprehensive security strategy across all components:
 
