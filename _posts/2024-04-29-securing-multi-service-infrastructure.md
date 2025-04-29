@@ -17,8 +17,7 @@ image: /assets/img/posts/2024-04-29-securing-multi-service-infrastructure/Logo.j
 
 ---
 
-
-## 🎯Project Overview
+# 🎯 Project Overview
 
 6Humanos PUG is a private matchmaking platform for Rocket League players, designed to provide a competitive environment outside the official game rankings. The platform offers:
 
@@ -463,7 +462,7 @@ The web application includes a real-time service status dashboard that provides 
 - Automatic status detection
 - Public availability for transparency
 
-### 🏆 Best Practices
+## 🏆 Best Practices
 
 1. **Error Handling**
    - Secure error messages
