@@ -100,11 +100,11 @@ The services communicate through a dedicated internal Docker network, which prov
          return response
      ```
    - Headers implementation:
-     - `X-Content-Type-Options`: Previene MIME type sniffing
-     - `X-Frame-Options`: Controla el embedding en iframes
-     - `X-XSS-Protection`: Protección contra XSS
-     - `Strict-Transport-Security`: Fuerza conexiones HTTPS
-     - `Content-Security-Policy`: Controla recursos permitidos
+     - `X-Content-Type-Options`: Prevents MIME type sniffing
+     - `X-Frame-Options`: Controls embedding in iframes
+     - `X-XSS-Protection`: Protection against XSS
+     - `Strict-Transport-Security`: Forces HTTPS connections
+     - `Content-Security-Policy`: Controls allowed resources
 
 3. **🤖 Bot Service**
    - Internal bot management interface is restricted to localhost
