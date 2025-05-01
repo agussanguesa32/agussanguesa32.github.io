@@ -360,6 +360,41 @@ The spam detection system operates through multiple layers of analysis:
    - Context-aware detection
    - Regular pattern updates based on new threats
 
+### 🚨 Cross-Platform Admin Alert System
+
+The platform implements a comprehensive alert system that ensures administrators are promptly notified of important events through multiple channels:
+
+1. **📱 Telegram Integration**
+   - Real-time notifications sent to admin group
+   - Support requests from users
+   - Critical security alerts
+   - System status updates
+
+   ![Telegram Admin Alert](/assets/img/posts/2024-04-29-securing-multi-service-infrastructure/telegramMessage.png)
+   *Example of user help request sent to admin Telegram group*
+
+2. **🔔 Discord Direct Messages**
+   - Redundant alerts sent via Discord DMs
+   - Ensures administrators receive notifications even if Telegram is unavailable
+   - Identical message content for consistency
+
+   ![Discord Admin Alert](/assets/img/posts/2024-04-29-securing-multi-service-infrastructure/helpMessageDiscord.png)
+   *Same help request delivered through Discord direct message*
+
+3. **🧐 Suspicious Account Detection**
+   - Automatic detection of duplicate account registration attempts
+   - Pattern recognition for suspicious registration behavior
+   - Instant administrator notification for manual verification
+
+   ![Duplicate Account Detection](/assets/img/posts/2024-04-29-securing-multi-service-infrastructure/duplicatedAccount.png)
+   *Alert triggered by suspicious duplicate account registration attempt*
+
+This multi-channel notification system ensures:
+- No critical alerts are missed
+- Administrators can respond quickly to security incidents
+- User support requests receive prompt attention
+- System integrity is continuously monitored
+
 ## 🌐 Web Application Security
 
 ![6humanos.cloud Landing Page](/assets/img/posts/2024-04-29-securing-multi-service-infrastructure/landingPage.png)
